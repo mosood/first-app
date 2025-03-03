@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GymBuddy - Your Personal Workout Companion
+
+GymBuddy is a modern web application built with Next.js that helps users track their fitness journey, create personalized workout plans, and connect with a community of fitness enthusiasts.
+
+## Features
+
+- **Personalized Workout Plans**: Tailored to your fitness level, goals, and available time
+- **Progress Tracking**: Monitor your workout history, achievements, and fitness metrics
+- **Community Integration**: Share your fitness journey and connect with other users
+- **Responsive Design**: Beautiful, modern UI that works seamlessly across all devices
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Components**: Headless UI, Heroicons
+- **Animations**: Framer Motion
+- **Form Handling**: React Hook Form with Yup validation
+- **State Management**: React Hooks
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gymbuddy.git
+   cd gymbuddy
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── auth/
+│   │   ├── layout/
+│   │   ├── profile/
+│   │   ├── ui/
+│   │   └── workout/
+│   ├── workouts/
+│   ├── profile/
+│   ├── progress/
+│   └── community/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features Implementation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### User Profile Setup
+- Multi-step form with validation
+- Fitness level assessment
+- Goal setting and tracking
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Workout Customization
+- Exercise database with difficulty levels
+- Duration-based workout generation
+- Video demonstrations (placeholder)
 
-## Learn More
+### Progress Tracking
+- Workout history logging
+- Achievement system
+- Visual progress indicators
 
-To learn more about Next.js, take a look at the following resources:
+### Community Features
+- Social feed
+- Workout sharing
+- Like and comment functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] User authentication
+- [ ] Exercise video integration
+- [ ] Wearable device integration
+- [ ] Advanced workout algorithms
+- [ ] Nutrition tracking
+- [ ] Social features expansion
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
